@@ -1,0 +1,31 @@
+
+body{
+    background-color: #F7ECDE;
+}
+
+.h-style{
+
+    font-family: Pacifico, cursive;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    isolation: isolate;
+    color: #352e28;
+}
+.h2-style{
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip:text;
+    color: transparent;
+}
+.btn-style{
+    color: white;
+    background-color: #d1512d;
+    border-color: #d1512d;
+    
+
+}
+.btn-style:hover{
+    background-color:#d1512d ;
+    color: white;
+}
