@@ -64,7 +64,7 @@ localStorage.setItem( "siteData",JSON.stringify(siteList) )
 }
 
 function nameValid() {
-    var nameRegex = /^[a-zA-Z]{2,15}$/; // Correct regex
+    var nameRegex = /^[a-zA-Z]{2,15}$/; 
     var nameInput = bookmarkNameInput.value;
     if (nameRegex.test(nameInput)) {
         bookmarkNameInput.classList.add("is-valid");
